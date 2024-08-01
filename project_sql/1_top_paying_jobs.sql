@@ -21,7 +21,7 @@ LEFT JOIN company_dim
 
  WHERE
     salary_year_avg IS NOT NULL AND
-    job_location = 'Anywhere' AND
+    job_location = 'New York, NY' AND
     job_title_short = 'Data Analyst'
 
 ORDER BY
